@@ -65,7 +65,7 @@ p-value: 0.84
 см. файл task_2.sql
 
 
-```
+```sql
 with filled_tab as (select dt
                             , user_id
                             , event_type
