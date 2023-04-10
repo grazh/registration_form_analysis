@@ -63,3 +63,8 @@ p-value: 0.84
 
 # Задание 2. Написание SQL-запроса
 см. файл task_2.sql
+
+
+```python:[tests/src/sample.py](https://github.com/grazh/registration_form_analysis/blob/main/task_2.sql)
+
+```
