@@ -65,6 +65,6 @@ p-value: 0.84
 см. файл task_2.sql
 
 
-```sql:[tests/src/sample.py](https://github.com/grazh/registration_form_analysis/blob/main/task_2.sql)
+```sql:[registration_form_analysis/blob/main/task_2.sql](https://github.com/grazh/registration_form_analysis/blob/main/task_2.sql)
 
 ```
