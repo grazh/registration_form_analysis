@@ -64,6 +64,8 @@ p-value: 0.84
 # Задание 2. Написание SQL-запроса
 
 ```sql
+drop table if exists sessions;
+create table sessions as
 with filled_tab as (select dt
                             , user_id
                             , event_type
