@@ -62,8 +62,6 @@ p-value: 0.84
 
 
 # Задание 2. Написание SQL-запроса
-см. файл task_2.sql
-
 
 ```sql
 with filled_tab as (select dt
