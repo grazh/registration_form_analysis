@@ -68,7 +68,7 @@ with filled_tab as (select dt
                             , user_id
                             , event_type
                             , case when event_props is null then 0 else event_props end as event_props
-                    from usr_wrk.sdd_test_sessions)
+                    from events)
 , lead_tab as (select dt
                         , case when lead(dt) over(partition by user_id order by dt) is not null then lead(dt) over(partition by user_id order by dt) else NOW() end as lead_dt
                         , event_type
